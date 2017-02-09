@@ -93,10 +93,11 @@ body {
 }
 
 .sub-button-div {
-    margin-top: 20px;
-} 
+    margin-top: 30px;
+}
 
-.lead, label {
+.lead,
+label {
     color: #333;
     text-shadow: none;
 }
@@ -109,8 +110,23 @@ body {
     margin-top: -20px;
 }
 
-input {
-    background: none;
+#mc_embed_signup {
+    clear: left;
+    width: 100%;
+}
+
+#mc_embed_signup input.email-custom {
+  padding: 10px;
+    border: 0px;
+    background-color: rgba(255,255,255,0);
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+min-width: 300px;
+}
+#mc_embed_signup input.email-custom:focus,
+#mc_embed_signup input.email-custom.focus {
+  border-bottom: solid 2px #3FA9F5;
+    outline: none;
 }
 
 
