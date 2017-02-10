@@ -87,8 +87,8 @@ body {
 
 .btn-lg {
     padding: .45rem 2.25rem;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 18px;
     border-radius: 9999px;
     background-color: #3FA9F5;
     color: #fff;
@@ -113,8 +113,9 @@ label {
     
 }
 
-label{ 
-margin-top: 30px;
+#mc_embed_signup label{ 
+margin-top: 15px;
+    font-weight: 300 !important;
 }
 
 .cover-heading-img {
