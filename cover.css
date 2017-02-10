@@ -31,7 +31,7 @@ html,
 body {
     height: 100%;
     background-color: #333;
-    background-image: url(assets/tkLOe7nnQ7mnMsiuijBy_hm.jpg);
+    background-image: url(assets/tkLOe7nnQ7mnMsiuijBy_hm%202.jpg);
     background-size: cover;
     background-position: center;
     font-family: "proxima-nova", sans-serif;
@@ -79,7 +79,10 @@ body {
  */
 
 .cover {
-    padding: 0 1.5rem;
+    padding: 2rem;
+    background-color:rgba(248,248,248,1);
+    box-shadow: 2px 2px 5px rgba(0,0,0,.75);
+    border-radius: 5px;
 }
 
 .btn-lg {
@@ -102,6 +105,18 @@ label {
     text-shadow: none;
 }
 
+.lead.lead-message{
+    color: #888888;
+    padding-top:5px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    
+}
+
+label{ 
+margin-top: 30px;
+}
+
 .cover-heading-img {
     width: 400px;
 }
@@ -118,7 +133,7 @@ label {
 #mc_embed_signup input.email-custom {
   padding: 10px;
     border: 0px;
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255,255,255,1);
   border-bottom: solid 2px #c9c9c9;
   transition: border 0.3s;
 min-width: 300px;
